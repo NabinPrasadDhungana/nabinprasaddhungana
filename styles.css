@@ -87,12 +87,33 @@ body {
   }
 }
 
-.skills, .services {
+.education .card {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.education h2 {
+  color: #333;
+}
+
+.education p {
+  color: #bdbdbd;
+}
+
+.services {
   background-color: #f8f9fa;
   padding: 5rem 0;
 }
 
-.skills .skill-item, .services .service-item {
+.services .service-item {
   padding: 30px;
   background: #fff;
   border-radius: 8px;
@@ -100,16 +121,24 @@ body {
   margin: 1rem; /* Add margin for spacing */
   flex: 1 1 calc(33.333% - 2rem); /* Allow items to grow and shrink, account for margins */
   box-sizing: border-box; /* Ensure padding and borders are included in the width/height */
+  transition: transform 300ms, box-shadow 300ms;
+  color: #333;
+  border: 1px solid #444;
 }
 
-.skills .skill-item i, .services .service-item i {
+.services .service-item i {
   color: #007bff;
 }
 
-.skills .skills-container, .services .services-container {
+.services .services-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; /* Align items with space around them */
+}
+
+.services .service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Skills Section */
@@ -141,6 +170,7 @@ body {
   border-radius: 5px;
 }
 
+
 .projects .card {
   border: none;
   transition: transform 0.3s;
@@ -148,6 +178,8 @@ body {
 
 .projects .card:hover {
   transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  
 }
 
 .contact {
@@ -199,3 +231,5 @@ body {
 .footer .social-icons a:hover {
   color: #007bff;
 }
+
+
