@@ -128,3 +128,29 @@ document.addEventListener('DOMContentLoaded', function () {
   counterUp(clientCount, clients);
   counterUp(experienceCount, experience);
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const formData = new FormData(form);
+
+  fetch(form.action, {
+    method: form.method,
+    body: formData,
+    headers: {
+      'Accept': 'application/json'
+    }
+  }).then(response => {
+    if (response.ok) {
+      document.getElementById('result').innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
+      form.reset();
+    } else {
+      response.json().then(data => {
+        document.getElementById('result').innerHTML = '<div class="alert alert-danger">' + (data.message || 'Failed to send message.') + '</div>';
+      });
+    }
+  }).catch(error => {
+    document.getElementById('result').innerHTML = '<div class="alert alert-danger">An error occurred. Please try again later.</div>';
+  });
+});
