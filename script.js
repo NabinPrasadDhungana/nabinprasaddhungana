@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   countUp(document.getElementById('project-count'), 11);
   countUp(document.getElementById('client-count'), 7);
   countUp(document.getElementById('experience-count'), 2);
+  countUp(document.getElementById('project-ongoing'), 2);
 
   // Canvas animation for hero section
   const canvas = document.getElementById('hero-canvas');
@@ -87,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const projectCount = document.getElementById('project-count');
   const clientCount = document.getElementById('client-count');
   const experienceCount = document.getElementById('experience-count');
+  const projectOngoingCount = document.getElementById('project-ongoing');
 
   const counterUp = (el, count) => {
     let current = 0;
@@ -94,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (current < count) {
         current += 1;
         el.innerText = current;
-        setTimeout(updateCount, 11);
+        setTimeout(updateCount, 50);
       } else {
         el.innerText = count;
       }
@@ -105,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
   counterUp(projectCount, 11);
   counterUp(clientCount, 7);
   counterUp(experienceCount, 2);
+  counterUp(projectOngoingCount, 2)
 
   // Contact form submission
   document.getElementById('contact-form').addEventListener('submit', function(e) {
