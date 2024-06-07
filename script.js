@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // Initialize AOS (Animate On Scroll) library
   AOS.init({
     duration: 1000,
-    once: false, // Make animations trigger every time on scroll
+    once: false // Make animations trigger every time on scroll
   });
 
   function countUp(element, endValue) {
@@ -16,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }, duration);
   }
 
-  countUp(document.getElementById('project-count'), 20);
-  countUp(document.getElementById('client-count'), 15);
-  countUp(document.getElementById('experience-count'), 5);
+  countUp(document.getElementById('project-count'), 11);
+  countUp(document.getElementById('client-count'), 7);
+  countUp(document.getElementById('experience-count'), 2);
 
   // Canvas animation for hero section
   const canvas = document.getElementById('hero-canvas');
@@ -71,15 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   createParticles();
   animate();
-});
 
-
-// ### Updated `scripts.js`
-
-// Adding smooth scroll behavior for the navigation links:
-
-javascript
-document.addEventListener('DOMContentLoaded', function() {
   // Smooth scrolling for navigation links
   document.querySelectorAll('a.nav-link').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -90,67 +83,53 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Initialize AOS (Animate On Scroll) library
-  AOS.init({
-    duration: 1000,
-    once: false // Ensure animation happens every time element comes into view
-  });
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-  AOS.init({
-      duration: 1200,
-  });
-
+  // Counter Up Functionality
   const projectCount = document.getElementById('project-count');
   const clientCount = document.getElementById('client-count');
   const experienceCount = document.getElementById('experience-count');
 
-  let projects = 50;
-  let clients = 20;
-  let experience = 5;
-
   const counterUp = (el, count) => {
-      let current = 0;
-      const updateCount = () => {
-          if (current < count) {
-              current += 1;
-              el.innerText = current;
-              setTimeout(updateCount, 50);
-          } else {
-              el.innerText = count;
-          }
-      };
-      updateCount();
+    let current = 0;
+    const updateCount = () => {
+      if (current < count) {
+        current += 1;
+        el.innerText = current;
+        setTimeout(updateCount, 11);
+      } else {
+        el.innerText = count;
+      }
+    };
+    updateCount();
   };
 
-  counterUp(projectCount, projects);
-  counterUp(clientCount, clients);
-  counterUp(experienceCount, experience);
-});
+  counterUp(projectCount, 11);
+  counterUp(clientCount, 7);
+  counterUp(experienceCount, 2);
 
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-  e.preventDefault();
+  // Contact form submission
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-  const form = e.target;
-  const formData = new FormData(form);
+    const form = e.target;
+    const formData = new FormData(form);
 
-  fetch(form.action, {
-    method: form.method,
-    body: formData,
-    headers: {
-      'Accept': 'application/json'
-    }
-  }).then(response => {
-    if (response.ok) {
-      document.getElementById('result').innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
-      form.reset();
-    } else {
-      response.json().then(data => {
-        document.getElementById('result').innerHTML = '<div class="alert alert-danger">' + (data.message || 'Failed to send message.') + '</div>';
-      });
-    }
-  }).catch(error => {
-    document.getElementById('result').innerHTML = '<div class="alert alert-danger">An error occurred. Please try again later.</div>';
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        document.getElementById('result').innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
+        form.reset();
+      } else {
+        response.json().then(data => {
+          document.getElementById('result').innerHTML = '<div class="alert alert-danger">' + (data.message || 'Failed to send message.') + '</div>';
+        });
+      }
+    }).catch(error => {
+      document.getElementById('result').innerHTML = '<div class="alert alert-danger">An error occurred. Please try again later.</div>';
+    });
   });
 });

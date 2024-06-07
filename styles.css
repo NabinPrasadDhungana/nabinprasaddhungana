@@ -1,12 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
+
+}
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container adjustments */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Ensure sections are not wider than the viewport */
+section {
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .navbar {
   background-color: #343a40;
   padding: 0.5rem; /* Reduced padding to make the navbar smaller */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .navbar-brand img {
@@ -43,56 +73,65 @@ body {
   z-index: 1;
 }
 
-.about img {
-  max-width: 100%;
-  border: 5px solid #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  padding: 2rem 1rem; /* Add some padding for spacing */
 }
 
 .about .about-img {
-  width: 300px; /* Increased size */
+  max-width: 300px; /* Default size */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 20px;
-  float: left; /* Make text wrap around the image */
-  border-radius: 50%; /* Make it circular */
+  margin-right: 20px; /* Space between image and text */
+  border-radius: 50%; /* Make the image circular */
+  border: 5px solid #fff; /* Add border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 @media (max-width: 992px) {
   .about .about-img {
     width: 200px; /* Adjust size for medium screens */
+    margin-right: 10px; /* Reduce margin for medium screens */
   }
 }
 
 @media (max-width: 768px) {
+  .about {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+  }
+
   .about .about-img {
-    width: 150px; /* Adjust size for smaller screens */
-    float: none; /* Disable float for smaller screens */
-    margin: 0 auto; /* Center image on smaller screens */
-    display: block; /* Center image on smaller screens */
-  }
-
-  .about .col-md-4,
-  .about .col-md-8 {
-    text-align: center;
-  }
-
-  .about .col-md-8 {
-    margin-top: 20px;
+    max-width: 150px; /* Adjust size for smaller screens */
+    margin: 0 auto 20px; /* Center image and add bottom margin */
   }
 }
 
 @media (max-width: 576px) {
+  .about .about-img {
+    width: 120px; /* Further adjust size for very small screens */
+  }
+
   .about .col-md-4 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Add spacing between sections */
   }
 }
 
 .education .card {
   background-color: #fff;
   color: #333;
-  border: 1px solid #444;
+  /* border: 1px solid #444; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 4px;
 }
 
 .education .card:hover {
@@ -108,32 +147,39 @@ body {
   color: #bdbdbd;
 }
 
-.services {
-  background-color: #f8f9fa;
-  padding: 5rem 0;
-}
-
-.services .service-item {
-  padding: 30px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 1rem; /* Add margin for spacing */
-  flex: 1 1 calc(33.333% - 2rem); /* Allow items to grow and shrink, account for margins */
-  box-sizing: border-box; /* Ensure padding and borders are included in the width/height */
-  transition: transform 300ms, box-shadow 300ms;
-  color: #333;
-  border: 1px solid #444;
-}
-
-.services .service-item i {
-  color: #007bff;
-}
-
-.services .services-container {
+/* Services Section */
+#services .services-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Align items with space around them */
+  gap: 20px; /* Add space between the service items */
+  justify-content: center; /* Center the service items horizontally */
+}
+
+#services .service-item {
+  background: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+  max-width: 300px; /* Ensuring the cards don't grow too large */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align flex items horizontally */
+  justify-content: center; /* Center-align flex items vertically */
+}
+
+#services .service-item i {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#services .service-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .services .service-item:hover {
@@ -153,6 +199,7 @@ body {
 #skills .card-title {
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 #skills .progress {
@@ -170,7 +217,6 @@ body {
   border-radius: 5px;
 }
 
-
 .projects .card {
   border: none;
   transition: transform 0.3s;
@@ -179,7 +225,6 @@ body {
 .projects .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  
 }
 
 .contact {
@@ -228,8 +273,13 @@ body {
   margin-right: 10px;
 }
 
-.footer .social-icons a:hover {
+.hero-content .social-icons a{
+  font-size: 1.5rem;
   color: #007bff;
+  margin: 0 5px 0;
 }
 
-
+.footer .social-icons a:hover {
+  color: #007bff;
+  scale: 1.2;
+}
