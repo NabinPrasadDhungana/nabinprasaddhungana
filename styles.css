@@ -241,6 +241,12 @@ section {
   border: none;
 }
 
+label.required:after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
 /* Footer Styles */
 .footer {
   background-color: #343a40;
@@ -283,3 +289,4 @@ section {
   color: #007bff;
   scale: 1.2;
 }
+
