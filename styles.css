@@ -182,6 +182,14 @@ section {
   margin-top: 10px;
 }
 
+.services{
+  margin: 5rem 0 5rem;
+}
+
+/* .service .text-center{
+  margin-bottom: 5rem;
+} */
+
 .services .service-item:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -194,6 +202,12 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-bottom: 20px;
+  transition: all 300ms;
+}
+
+#skills .card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #skills .card-title {
