@@ -1,4 +1,4 @@
-## Hi there 👋
+👋 Hi, I'm Nabin Prasad Dhungana! Passionate about coding and open-source. Exploring web development. Always eager to learn and collaborate!
 
 <!--
 **NabinPrasadDhungana/nabinprasaddhungana** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
