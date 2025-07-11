@@ -67,7 +67,7 @@
 
 ---
 
-### 🐍 GitHub Contribution Snake
+### 🐍 GitHub Contributions
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nabinprasaddhungana/nabinprasaddhungana/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
