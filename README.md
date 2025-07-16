@@ -73,7 +73,7 @@
   <p align="center">
     <img src="https://raw.githubusercontent.com/nabinprasaddhungana/nabinprasaddhungana/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
   </p>
-  </a>
+</a>
 
 
 ### ☕ Let's Connect!
