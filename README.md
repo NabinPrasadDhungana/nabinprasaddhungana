@@ -70,7 +70,9 @@
 ### 🐍 GitHub Contributions
 
 <p align="center">
+  <a href="https://nabinprasaddhungana.com.np>
   <img src="https://raw.githubusercontent.com/nabinprasaddhungana/nabinprasaddhungana/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  </a>
 </p>
 
 
