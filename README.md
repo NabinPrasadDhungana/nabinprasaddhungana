@@ -8,7 +8,7 @@
   <a href="https://github.com/nabinprasaddhungana"><img src="https://img.shields.io/github/followers/nabinprasaddhungana?label=Follow&style=social"></a>
   <a href="mailto:prnabin123@gmail.com"><img src="https://img.shields.io/badge/email-prnabin123%40gmail.com-red?style=flat-square&logo=gmail"></a>
   <a href="https://www.linkedin.com/in/nabin-prasad-dhungana/"><img src="https://img.shields.io/badge/LinkedIn-nabin--prasad--dhungana-blue?style=flat-square&logo=linkedin"></a>
-  <a href="https://twitter.com/NabinPrasadDhu1"><img src="https://img.shields.io/badge/Twitter-@NabinPrasadDhu1-1DA1F2?style=flat-square&logo=twitter"></a>
+  <a href="https://x.com/NabinPrasadDhu1"><img src="https://img.shields.io/badge/Twitter-@NabinPrasadDhu1-1DA1F2?style=flat-square&logo=twitter"></a>
 </p>
 
 ---
