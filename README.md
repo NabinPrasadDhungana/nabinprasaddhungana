@@ -59,11 +59,12 @@
 ---
 
 ### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nabinprasaddhungana&show_icons=true&theme=tokyonight" width="47%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nabinprasaddhungana&theme=tokyonight" width="47%"/>
-</p>
+<a href="https://nabinprasaddhungana.com.np">
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=nabinprasaddhungana&show_icons=true&theme=tokyonight" width="47%"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nabinprasaddhungana&theme=tokyonight" width="47%"/>
+  </p>
+</a>
 
 ---
 
