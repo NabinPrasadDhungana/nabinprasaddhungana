@@ -15,7 +15,7 @@
 
 ### 🚀 About Me
 
-🎓 I'm a curious **developer** from Nepal.  
+🎓 I'm a passionate and curious **developer** from Nepal.  
 💻 I specialize in building full-stack(primarily BackEnd for now ie. July, 2025) web apps using modern technologies.  
 🎨 I love turning ideas into beautiful, interactive experiences.  
 🌱 Always learning, always building.
