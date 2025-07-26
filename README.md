@@ -89,5 +89,5 @@ I'm always open to collaborating on interesting projects, contributing to open s
 ---
 
 <p align="center">
-  🔥 Let's build something amazing together!
+  🔥 Let's build something amazing together! Thank you!
 </p>
