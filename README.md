@@ -81,7 +81,7 @@
 
 I'm always open to collaborating on interesting projects, contributing to open source, or just having a chat about tech, creativity, or educational content.
 
-📬 **Reach me at:**  
+📬 **Reach me below:**  
 ✉️ [prnabin123@gmail.com](mailto:prnabin123@gmail.com)  
 🌐 [Portfolio](https://nabinprasaddhungana.com.np)  
 🔗 [LinkedIn](https://www.linkedin.com/in/nabin-prasad-dhungana/)
