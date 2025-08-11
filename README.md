@@ -1,4 +1,4 @@
-<h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 👋</h1>
+<h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 👋🙏</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Fullstack+Developer;Lifelong+Learner+📚;Always+Coding+Something+Cool!&center=true&width=500&height=45" />
