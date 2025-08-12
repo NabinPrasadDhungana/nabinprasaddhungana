@@ -83,7 +83,7 @@ I'm always open to collaborating on interesting projects, contributing to open s
 
 📬 **Reach me below:**  
 ✉️ [prnabin123@gmail.com](mailto:prnabin123@gmail.com)  
-🌐 [Portfolio](https://nabinprasaddhungana.com.np)  
+🌐 [My Portfolio](https://nabinprasaddhungana.com.np)  
 🔗 [LinkedIn](https://www.linkedin.com/in/nabin-prasad-dhungana/)
 
 ---
