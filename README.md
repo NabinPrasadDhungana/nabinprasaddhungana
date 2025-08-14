@@ -68,7 +68,7 @@
 
 ---
 
-### 🐍 My GitHub Contributions
+### 🐍 GitHub Contributions
 
 <a href="https://nabinprasaddhungana.com.np">
   <p align="center">
