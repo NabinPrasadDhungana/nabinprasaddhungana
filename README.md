@@ -58,7 +58,7 @@
 
 ---
 
-### 📈 My GitHub Stats
+### 📈 GitHub Stats
 <a href="https://nabinprasaddhungana.com.np">
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=nabinprasaddhungana&show_icons=true&theme=tokyonight" width="47%"/>
