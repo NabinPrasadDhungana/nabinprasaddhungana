@@ -48,7 +48,7 @@
 
 ### 🌟 Featured Projects
 
-- ✅ [**Sajilo-Hajiri**](https://github.com/NabinPrasadDhungana/Sajilo-Hajiri) – An efficient attendance management system built with Django.
+- ✅ [**Sajilo-Hajiri**](https://github.com/NabinPrasadDhungana/Sajilo-Hajiri) – An efficient attendance management system using **Face Recognition** built with Django.
 - ❤️ [**CureCircle**](https://github.com/hemrajpant69/CureCircle) – A donation campaign web app to support people needing financial help for fatal disease treatment.
 - 🚀 [**HamroNotes**](https://github.com/NabinPrasadDhungana/HamroNotes) – A powerful platform for buying & selling academic and non-academic notes.
 - 📚 [**Django-Local-Library**](https://github.com/NabinPrasadDhungana/Django-Local-Library) – A classic tutorial-based library management project using Django.
