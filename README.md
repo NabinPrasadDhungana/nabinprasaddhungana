@@ -9,8 +9,7 @@
   <a href="mailto:prnabin123@gmail.com"><img src="https://img.shields.io/badge/email-prnabin123%40gmail.com-red?style=flat-square&logo=gmail"></a>
   <a href="https://www.linkedin.com/in/nabin-prasad-dhungana/"><img src="https://img.shields.io/badge/LinkedIn-nabin--prasad--dhungana-blue?style=flat-square&logo=linkedin"></a>
   <a href="https://x.com/NabinPrasadDhu1"><img src="https://img.shields.io/badge/Twitter-@NabinPrasadDhu1-1DA1F2?style=flat-square&logo=twitter"></a>
-  ![Profile views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com/NabinPrasadDhungana/nabinprasaddhungana)
-</p>
+  ![](https://komarev.com/ghpvc/?username=NabinPrasadDhungana)</p>
 
 ---
 
