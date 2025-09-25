@@ -1,4 +1,4 @@
-![Profile views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com/NabinPrasadDhungana)
+![Profile views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com/NabinPrasadDhungana&title=Profile%20Views)
 
 <h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 🤯🤓</h1>
 
@@ -85,7 +85,7 @@
 I'm always open to collaborating on interesting projects, contributing to open source, or just having a chat about tech, creativity, or educational content.
 
 🤝 **Reach me below:**  
-📧[prnabin123@gmail.com](mailto:prnabin123@gmail.com)   
+📧[prnabin123@gmail.com](mailto:prnabin123@gmail.com)  
 🌐[My Portfolio](https://nabinprasaddhungana.com.np)  
 🔗[LinkedIn](https://www.linkedin.com/in/nabin-prasad-dhungana/)
 
