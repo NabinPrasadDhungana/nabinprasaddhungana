@@ -1,4 +1,4 @@
-![Profile views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=github.com/NabinPrasadDhungana&title=Profile%20Views)
+![Profile Views](https://komarev.com/ghpvc/?username=NabinPrasadDhungana&color=blue)
 
 <h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 🤯🤓</h1>
 
