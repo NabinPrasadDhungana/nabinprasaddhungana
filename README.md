@@ -3,7 +3,7 @@
 <h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 🤯🤓</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Backend+Developer;Lifelon..." />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Backend+Developer;Lifelong+Learner..." />
 </p>
 
 <p align="center">
