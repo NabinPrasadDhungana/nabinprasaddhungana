@@ -54,7 +54,7 @@
 - 🧠 [**Sajilo-Hajiri**](https://github.com/NabinPrasadDhungana/Sajilo-Hajiri) 📝 An efficient attendance management system using **Face Recognition** built with Django.
 - 🐍 [**CureCircle**](https://github.com/hemrajpant69/CureCircle) 📝 A donation campaign web app to support people needing financial help for fatal disease treatment.
 - 🛒 [**HamroNotes**](https://github.com/NabinPrasadDhungana/HamroNotes) 📝 A powerful platform for buying & selling academic and non-academic notes.
-- 🦾 [**Blog-Website**]([https://github.com/NabinPrasadDhungana/Django-Local-Library](https://github.com/NabinPrasadDhungana/Blog-Website)) 📝 Developed a dynamic blog website enabling users to create, read, update, and delete blog posts with an secure user authentication and efficient content management features to enhance user experience and maintain data integrity.
+- 🦾 [**Blog-Website**](https://github.com/NabinPrasadDhungana/Django-Local-Library](https://github.com/NabinPrasadDhungana/Blog-Website) 📝 Developed a dynamic blog website enabling users to create, read, update, and delete blog posts with an secure user authentication and efficient content management features to enhance user experience and maintain data integrity.
 - 🗃️ [**django-ecommerce**](https://github.com/NabinPrasadDhungana/django-ecommerce) 📝 A full-featured e-commerce website built using Django.
 - 🔥 [**DjangoProject1st**](https://github.com/NabinPrasadDhungana/DjangoProject1st) 📝 My very first Django project that kickstarted my backend journey.
 - 📝 [**Custom Django Auth System**](https://github.com/NabinPrasadDhungana/todo_list_project) 📝 A to-do list app with Django Allauth and custom user models.
