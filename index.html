@@ -1,435 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nabin Prasad Dhungana - Portfolio</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nabin Prasad Dhungana, Python Backend Developer</title>
+<meta name="description" content="Nabin Prasad Dhungana. Python backend developer working with FastAPI, Django, PostgreSQL and Redis.">
 
-  <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
 
-  <!-- Font Awesome CDN link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="favicon_io/site.webmanifest">
-
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="https://nabinprasaddhungana.com.np/"><img class="img-fluid" src="images/logo.png" alt="Logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#about" data-target="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education" data-target="#education">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills" data-target="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects" data-target="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services" data-target="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact" data-target="#contact">Contact</a></li>
+
+<div class="rail">
+  <div class="rail-top">
+    <a href="#top" class="rail-mark">NPD</a>
+  </div>
+  <nav class="rail-nav" aria-label="Sections">
+    <a href="#profile" class="rail-link" data-section="profile"><span>01</span>Profile</a>
+    <a href="#experience" class="rail-link" data-section="experience"><span>02</span>Experience</a>
+    <a href="#stack" class="rail-link" data-section="stack"><span>03</span>Stack</a>
+    <a href="#projects" class="rail-link" data-section="projects"><span>04</span>Projects</a>
+    <a href="#education" class="rail-link" data-section="education"><span>05</span>Education</a>
+    <a href="#contact" class="rail-link" data-section="contact"><span>06</span>Contact</a>
+  </nav>
+  <div class="rail-bottom">
+    <span class="status-dot" aria-hidden="true"></span>
+    <span>Kathmandu, NP</span>
+  </div>
+</div>
+
+<main id="top">
+
+  <section id="profile" class="section hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="kicker">/ backend engineer</p>
+        <h1>Nabin Prasad<br>Dhungana</h1>
+        <p class="hero-lede">
+          I build REST APIs and the services behind them, mostly FastAPI and Django,
+          backed by PostgreSQL and Redis, shipped in Docker. Currently a Junior Python
+          Developer at Higain Labs.
+        </p>
+        <div class="hero-actions">
+          <a href="mailto:prnabin123@gmail.com" class="btn-primary">Get in touch</a>
+          <a href="https://github.com/NabinPrasadDhungana" target="_blank" rel="noopener" class="btn-ghost">View GitHub</a>
+        </div>
+      </div>
+
+      <pre class="json-card" aria-label="Profile summary"><code><span class="jp">{</span>
+  <span class="jk">"name"</span>: <span class="js">"Nabin Prasad Dhungana"</span>,
+  <span class="jk">"role"</span>: <span class="js">"Python Backend Developer"</span>,
+  <span class="jk">"location"</span>: <span class="js">"Kathmandu, Nepal"</span>,
+  <span class="jk">"organization"</span>: <span class="js">"Higain Labs"</span>,
+  <span class="jk">"education"</span>: <span class="js">"BE in Information Technology, NCIT"</span>,
+  <span class="jk">"core_stack"</span>: [
+    <span class="js">"FastAPI"</span>, <span class="js">"Django"</span>,
+    <span class="js">"PostgreSQL"</span>, <span class="js">"Redis"</span>,
+    <span class="js">"Docker"</span>
+  ],
+  <span class="jk">"focus"</span>: <span class="js">"REST APIs, microservices, backend architecture, and Agentic AI"</span>,
+  <span class="jk">"open_to"</span>: <span class="js">"backend &amp; ML-adjacent roles"</span>
+<span class="jp">}</span></code></pre>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2 class="section-heading"><span class="section-num">02</span>Experience</h2>
+
+    <ol class="commit-log">
+      <li class="commit">
+        <div class="commit-meta">
+          <span class="commit-date">05/2026 &ndash; Present</span>
+          <span class="commit-tag">current</span>
+        </div>
+        <h3>Junior Python Developer <span class="at">@ Higain Labs</span></h3>
+        <p>Develop and maintain Python-based REST APIs and services across FastAPI,
+          Django, PostgreSQL and Docker in an Agile team. Onboarding fast onto Redis,
+          Celery and AWS S3 as project needs evolve.</p>
+        <p class="commit-place">Lane 1, Lalitpur</p>
+      </li>
+      <li class="commit">
+        <div class="commit-meta">
+          <span class="commit-date">12/2025 &ndash; 04/2026</span>
+        </div>
+        <h3>Python Developer Intern <span class="at">@ Higain Labs</span></h3>
+        <p>Assisted in designing and building RESTful APIs using Python. Studied SQL
+          optimization and indexing techniques to speed up query paths.</p>
+        <p class="commit-place">Lane 1, Lalitpur</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="stack" class="section">
+    <h2 class="section-heading"><span class="section-num">03</span>Stack</h2>
+
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h3>Backend &amp; API</h3>
+        <ul class="tag-list">
+          <li>Python</li><li>FastAPI</li><li>Django</li><li>Django REST Framework</li>
+          <li>RESTful API design</li><li>RBAC</li><li>Microservices</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Data</h3>
+        <ul class="tag-list">
+          <li>PostgreSQL</li><li>MySQL</li><li>SQLite</li>
+          <li>Redis</li><li>RedisGEO</li><li>RediSearch</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>ORM &amp; Schema</h3>
+        <ul class="tag-list">
+          <li>SQLAlchemy</li><li>Alembic</li><li>Django ORM</li><li>Pydantic</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Infra &amp; Tooling</h3>
+        <ul class="tag-list">
+          <li>Docker</li><li>docker&#8209;compose</li><li>Celery</li><li>AWS S3</li>
+          <li>Git</li><li>Linux</li><li>Swagger</li><li>Postman</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Languages</h3>
+        <ul class="tag-list">
+          <li>Python</li><li>JavaScript</li><li>PHP</li><li>Java</li><li>C</li><li>C++</li>
+        </ul>
+      </div>
+      <div class="stack-group">
+        <h3>Frontend &amp; ML</h3>
+        <ul class="tag-list">
+          <li>React</li><li>Tailwind CSS</li><li>PyTorch</li><li>EfficientNet</li>
         </ul>
       </div>
     </div>
-  </nav>
+  </section>
 
+  <section id="projects" class="section">
+    <h2 class="section-heading"><span class="section-num">04</span>Projects</h2>
 
-  <!-- Hero Section -->
-  <section class="hero text-dark text-center d-flex align-items-center justify-content-center" id="hero">
-    <canvas id="hero-canvas"></canvas>
-    <div class="container hero-content" data-aos="fade-in">
-      <h1 class="display-4">Hello, I'm Nabin Prasad Dhungana</h1>
-      <p class="lead">A passionate developer who loves creating beautiful and functional websites.</p>
-      <div class="social-icons mt-4">
-        <a href="mailto:prnabin123@gmail.com" target="_blank" class="social-icon"><i class="fas fa-envelope"></i></a>
-        <a href="https://github.com/NabinPrasadDhungana" target="_blank" class="social-icon">
-          <i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/nabinprasad.dhungana.1/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/nabinprasaddhungana/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/nabin-prasad-dhungana-b687b0254/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://x.com/NabinPrasadDhu1" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="https://discord.com/channels/1056537554108817558/1056537554658283593" target="_blank" class="social-icon"><i class="fab fa-discord"></i></a>
-      </div>
-      <a href="#about" class="btn btn-primary btn-lg mt-4">Learn More</a>
+    <div class="project-list">
+
+      <article class="project">
+        <div class="project-head">
+          <span class="method get">SERVICE</span>
+          <span class="project-path">/proximity-service</span>
+          <span class="project-date">02/2026</span>
+        </div>
+        <h3>Proximity Service</h3>
+        <p>A standalone backend that takes a user's location or a search query and
+          returns nearby, relevant venues filtered by radius or text. RedisGEO handles
+          geo filtering; RediSearch indices handle query-string search.</p>
+        <div class="project-tags"><span>FastAPI</span><span>Redis</span><span>PostgreSQL</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <span class="method post">ML</span>
+          <span class="project-path">/deepskin</span>
+          <span class="project-date">06/2026 &ndash; 08/2026</span>
+        </div>
+        <h3>DeepSkin</h3>
+        <p>Binary malignant/benign skin lesion classifier built on EfficientNetB2 with
+          CBAM attention, trained on a deduplicated HAM10000 + ISIC dataset, ~94%
+          malignant recall, ~0.88 ROC&#8209;AUC. Django REST backend, React frontend, moving
+          toward a self-hosted inference endpoint.</p>
+        <div class="project-tags"><span>PyTorch</span><span>Django REST</span><span>React</span></div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <span class="method get">APP</span>
+          <span class="project-path">/sajilo-hajiri</span>
+          <span class="project-date">11/2025 &ndash; Present</span>
+        </div>
+        <h3>Sajilo Hajiri</h3>
+        <p>College attendance management system that replaces manual roll-call with
+          facial recognition, cutting the time each session takes to log attendance.</p>
+        <div class="project-tags"><span>Django</span><span>React</span><span>Face Recognition</span></div>
+        <a href="https://github.com/NabinPrasadDhungana/sajilo-hajiri-refined" target="_blank" rel="noopener" class="project-link">Source &rarr;</a>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <span class="method sys">SYSTEM</span>
+          <span class="project-path">/browser-engine</span>
+          <span class="project-date">12/2025</span>
+        </div>
+        <h3>Custom Web Browser Engine</h3>
+        <p>A minimal browser that renders HTML/CSS using Python, Skia and SDL, with
+          multi-tab support and web search built in.</p>
+        <div class="project-tags"><span>Python</span><span>Skia</span><span>SDL</span></div>
+        <a href="https://github.com/NabinPrasadDhungana/Browser" target="_blank" rel="noopener" class="project-link">Source &rarr;</a>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <span class="method get">APP</span>
+          <span class="project-path">/blog-website</span>
+          <span class="project-date">12/2025</span>
+        </div>
+        <h3>Blog Website</h3>
+        <p>Dynamic blogging platform with full CRUD for posts, secure user
+          authentication and content management.</p>
+        <div class="project-tags"><span>Django</span></div>
+        <a href="https://github.com/NabinPrasadDhungana/Blog-Website" target="_blank" rel="noopener" class="project-link">Source &rarr;</a>
+      </article>
+
     </div>
   </section>
 
-<hr>
+  <section id="education" class="section">
+    <h2 class="section-heading"><span class="section-num">05</span>Education</h2>
 
-  <!-- About Section -->
-  <section class="about py-5" id="about">
-    <div class="container" data-aos="fade-up">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-md-4 text-center mb-4">
-          <img src="images/pp.jpeg" class="img-fluid rounded-circle about-img ml-4" alt="Profile Picture">
+    <ul class="edu-list">
+      <li>
+        <div class="edu-row">
+          <h3>Bachelor of Engineering in Information Technology</h3>
+          <span class="edu-date">12/2022 &ndash; 2026</span>
         </div>
-        <div class="col-12 col-md-8">
-          <h2>About Me</h2>
-          <p>Hi, I'm Nabin Prasad Dhungana 👋, a passionate web developer currently pursuing a Bachelor of Engineering in Information Technology 🎓. With a strong foundation in IT and a keen eye for design, I specialize in creating dynamic, user-friendly websites that blend functionality with aesthetic appeal 🌐✨.</p>
-
-          <p>My journey in web development began with a curiosity about how websites work, which quickly grew into a full-fledged passion 💻❤️. Over the years, I've honed my skills in HTML, CSS, JavaScript, and various web development frameworks, allowing me to build responsive and engaging websites 📱💡.</p>
-
-          <p>As a professional web developer, I am dedicated to continuous learning and staying up-to-date with the latest industry trends 📚🚀. My goal is to deliver high-quality web solutions that not only meet but exceed client expectations 🌟.</p>
-
-          <p>Whether you need a simple website or a complex web application, I am here to help bring your vision to life. Let's connect and create something amazing together! 🤝💼</p>
-          
+        <p>Nepal College of Information Technology (NCIT), Balkumari, Lalitpur.</p>
+      </li>
+      <li>
+        <div class="edu-row">
+          <h3>+2 Science, Computer Science (Physics)</h3>
+          <span class="edu-date">2020 &ndash; 05/2022</span>
         </div>
-      </div>
-    </div>
-  </section>
-<hr>
-
-  <!-- Education Section -->
-<section class="education py-5" id="education">
-  <div class="container" data-aos="fade-up">
-    <div class="text-center mb-5">
-      <h2>Education</h2>
-      <p>My academic background</p>
-    </div>
-    <div class="row">
-      <div class="col-md-6 mb-4" data-aos="fade-right">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Secondary Education</h5>
-            <p class="card-text">Viswa Niketan Secondary School, 2009 - 2020</p>
-            <p class="card-text">GPA: 3.90/4.0</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4" data-aos="fade-left">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Higher Secondary Education</h5>
-            <p class="card-text">Viswa Niketan Secondary School, 2020 - 2022</p>
-            <p class="card-text">GPA: 3.19/4.0</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12 mb-4" data-aos="fade-right">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Engineering in Information Technology</h5>
-            <p class="card-text">Pokhara University, 2022 - Present</p>
-            <p class="card-text">GPA: 3.8/4.0</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<hr>
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-5 bg-white">
-    <div class="container">
-      <h2 class="text-center">Skills</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">HTML</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">CSS</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">JavaScript</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">C</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">C++</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Python</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Java</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Bootstrap</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Django</h5>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<hr>
-
-  <!-- Projects Section -->
-  <section class="projects py-5" id="projects">
-    <div class="container">
-      
-      <div class="text-center mb-5" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Here are some of my recent works.</p>
-      </div>
-      <div class="row">
-        <div class="col-md-4" data-aos="fade-left">
-          <div class="card mb-4 shadow-sm">
-            <img src="images/django.png" class="card-img-top" alt="django.png">
-            <div class="card-body">
-              <h5 class="card-title">My First Django Project</h5>
-              <p class="card-text">Used the power of Django to create a fully functional website.</p>
-              <a href="https://github.com/NabinPrasadDhungana/DjangoProject1st" target="_blank" class="btn btn-primary">Source Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4" data-aos="fade-right">
-          <div class="card mb-4 shadow-sm">
-            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">CureCircle</h5>
-              <p class="card-text">A donation campaign to help people lacking of money to get treated against fatal diseases.</p>
-              <a href="https://github.com/hemrajpant69/CureCircle" target="_blank" class="btn btn-primary">Source Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4" data-aos="fade-up">
-          <div class="card mb-4 shadow-sm">
-            <img src="images/library.png" class="card-img-top" alt="Django Local Library">
-            <div class="card-body">
-              <h5 class="card-title">Django Local Library</h5>
-              <p class="card-text">A library management system website to manage library traffics.</p>
-              <a href="https://github.com/NabinPrasadDhungana/Django-Local-Library" target="_blank" class="btn btn-primary">Source Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Counters Section -->
-      <div class="row text-center mt-5">
-        <div class="col-md-3">
-          <div class="counter" data-aos="fade-up">
-            <h2><span id="project-count">0</span>+</h2>
-            <p>Projects Completed</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="counter" data-aos="fade-up">
-            <h2><span id="client-count">0</span>+</h2>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="counter" data-aos="fade-up">
-            <h2><span id="experience-count">0</span>+</h2>
-            <p>Years of Experience</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="counter" data-aos="fade-up">
-            <h2><span id="project-ongoing">0</span>+</h2>
-            <p>Projects Ongoing</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<hr>
-
-<!-- Services Section -->
-<section id="services" class="services">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="text-center">Services</h2>
-        <div class="services-container">
-          <div class="service-item" data-aos="fade-up">
-            <i class="fas fa-laptop-code fa-2x"></i>
-            <h3>Web Development</h3>
-            <p>Building responsive and modern websites</p>
-          </div>
-          <div class="service-item" data-aos="fade-up" data-aos-delay="100">
-            <i class="fas fa-pencil-ruler fa-2x"></i>
-            <h3>Graphic Design</h3>
-            <p>Creating stunning graphics and visuals</p>
-          </div>
-          <div class="service-item" data-aos="fade-up" data-aos-delay="200">
-            <i class="fas fa-search fa-2x"></i>
-            <h3>SEO Optimization</h3>
-            <p>Improving website rankings on search engines</p>
-          </div>
-          <!-- Add more service items as needed -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
-
-  <!-- Contact Section -->
-  <section class="contact py-5" id="contact">
-    <div class="container">
-      <div class="text-center mb-5" data-aos="fade-up">
-        <h2>Contact Me</h2>
-        <p>Feel free to get in touch with me.</p>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-8" data-aos="fade-up">
-          <form action="https://api.web3forms.com/submit" method="POST">
-		        <input type="hidden" name="access_key" value="3a11f246-6c71-460c-81d8-9f48ea3c3825">
-
-            <div class="form-row">
-              <div class="form-group col-md-6">
-		            <label for="first_name" class="required">First Name</label>
-                <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="middle_name">Middle Name</label>
-                <input type="text" name="first_name" class="form-control" id="middle_name" placeholder="Middle Name">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="last_name" class="required">Last Name</label>
-               <input type="text" name="first_name" class="form-control" id="last_name" placeholder="Last Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="email" class="required">Email</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="phone" class="required">Phone</label>
-                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your phone" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="subject" class="required">Subject</label>
-                <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group w-100">
-                <label for="message" class="required">Message</label>
-                <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+        <p>Viswa Niketan Secondary School, Tripureshwor, Kathmandu.</p>
+      </li>
+    </ul>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer bg-dark text-white py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>About Me</h5>
-          <p>I am Nabin Prasad Dhungana, a passionate developer dedicated to creating beautiful and functional websites.</p>
-          <p class="cont">Email: prnabin123@gmail.com</p>
-          <p class="cont">Mob : +977 9863483039</p>
-        </div>
-        <div class="col-md-4">
-          <h5>Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#hero" class="text-white">Home</a></li>
-            <li><a href="#about" class="text-white">About</a></li>
-            <li><a href="#skills" class="text-white">Skills</a></li>
-            <li><a href="#services" class="text-white">Services</a></li>
-            <li><a href="#projects" class="text-white">Projects</a></li>
-            <li><a href="#contact" class="text-white">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Follow Me</h5>
-          <div class="social-icons">
-            <a href="mailto:prnabin123@gmail.com" target="_blank" class="text-white "><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/NabinPrasadDhungana" target="_blank" class="text-white "><i class="fab fa-github"></i></a>
-            <a href="https://www.facebook.com/nabinprasad.dhungana.1/" target="_blank" class="text-white"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/nabinprasaddhungana/" target="_blank" class="text-white "><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/nabin-prasad-dhungana-b687b0254/" target="_blank" class="text-white "><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://x.com/NabinPrasadDhu1" target="_blank" class="text-white "><i class="fab fa-twitter"></i></a>
-            <a href="https://discord.com/channels/1056537554108817558/1056537554658283593" target="_blank" class="text-white "><i class="fab fa-discord"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-md-12 text-center">
-          <p class="mb-0">&copy; 2024 Nabin Prasad Dhungana. All Rights Reserved.</p>
-        </div>
-      </div>
-    </div>
+  <section id="contact" class="section contact-section">
+    <h2 class="section-heading"><span class="section-num">06</span>Contact</h2>
+    <p class="contact-lede">Open to backend roles and interesting problems. Email is the fastest way to reach me.</p>
+
+    <ul class="contact-list">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href="mailto:prnabin123@gmail.com">prnabin123@gmail.com</a>
+      </li>
+      <li>
+        <span class="contact-label">Phone</span>
+        <a href="tel:+9779863483039">+977 986&#8209;348&#8209;3039</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/NabinPrasadDhungana" target="_blank" rel="noopener">github.com/NabinPrasadDhungana</a>
+      </li>
+      <li>
+        <span class="contact-label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/nabin-prasad-dhungana/" target="_blank" rel="noopener">in/nabin&#8209;prasad&#8209;dhungana</a>
+      </li>
+      <li>
+        <span class="contact-label">Site</span>
+        <a href="https://nabinprasaddhungana.com.np" target="_blank" rel="noopener">nabinprasaddhungana.com.np</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <span>&copy; 2026 Nabin Prasad Dhungana</span>
+    <span class="footer-dot">&middot;</span>
   </footer>
 
+</main>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
