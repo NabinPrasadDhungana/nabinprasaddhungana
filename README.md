@@ -1,96 +1,79 @@
-![Profile Views](https://komarev.com/ghpvc/?username=NabinPrasadDhungana&color=blue)
+# Nabin Prasad Dhungana
 
-<h1 align="center">Hi there and Namaste, I'm Nabin Prasad Dhungana 🤯🤓</h1>
+**Python Backend Developer**, Kathmandu, Nepal
+
+I build REST APIs and backend services. Mostly FastAPI and Django, usually with PostgreSQL
+behind them and Docker around them. Currently a Junior Python Developer at Higain Labs,
+finishing a BE in IT at NCIT.
+
+[Website](https://nabinprasaddhungana.com.np) · [LinkedIn](https://www.linkedin.com/in/nabin-prasad-dhungana/) · [Email](mailto:prnabin123@gmail.com) · [X](https://x.com/NabinPrasadDhu1)
+
+---
+
+## What I work with
+
+| | |
+|---|---|
+| **Languages** | Python, JavaScript, PHP, Java, C, C++, SQL |
+| **Backend** | FastAPI, Django, Django REST Framework, REST API design, RBAC, microservices |
+| **Data** | PostgreSQL, MySQL, SQLite, Redis / RedisGEO / RediSearch |
+| **ORM & schema** | SQLAlchemy, Alembic, Django ORM, Pydantic |
+| **Infra & tools** | Docker, docker-compose, Celery, AWS S3, Git, Linux, Swagger, Postman |
+| **Frontend** | React, Tailwind CSS, Bootstrap |
+| **ML** | PyTorch/TensorFlow (EfficientNet, CBAM attention), OpenCV |
+
+---
+
+## Projects
+
+**[Proximity Service](https://github.com/NabinPrasadDhungana)**, nearby venue search
+A standalone backend that takes a user's location or search query and returns nearby,
+relevant venues filtered by radius or text. Built on RedisGEO for geo filtering and
+RediSearch indices for query-string search.
+`FastAPI` `Redis` `PostgreSQL`
+
+**DeepSkin**, AI skin lesion screening platform
+Binary malignant/benign classifier using EfficientNetB2 with CBAM attention, trained on a
+deduplicated HAM10000 + ISIC dataset. Reaches ~94% malignant recall and ~0.88 ROC-AUC.
+Django REST backend with a React frontend; moving from third-party classification APIs
+toward a self-hosted inference endpoint.
+`PyTorch` `Django REST` `React`
+
+**[Sajilo Hajiri](https://github.com/NabinPrasadDhungana/sajilo-hajiri-refined)**, college attendance management
+Attendance tracking that replaces manual roll-call with facial recognition, cutting the time
+each session takes. Django API with a React frontend.
+`Django` `React` `Face Recognition`
+
+**[Custom Web Browser Engine](https://github.com/NabinPrasadDhungana/Browser)**, minimal browser in Python
+A lightweight browser that renders HTML/CSS using Python, Skia and SDL, with multi-tab
+support and web search.
+`Python` `Skia` `SDL`
+
+**[Blog Website](https://github.com/NabinPrasadDhungana/Blog-Website)**, dynamic blogging platform
+Full CRUD for posts with secure user authentication and content management.
+`Django`
+
+<details>
+<summary>Earlier work</summary>
+
+- [**CureCircle**](https://github.com/hemrajpant69/CureCircle), donation campaign app for people funding treatment of fatal illness.
+- [**HamroNotes**](https://github.com/NabinPrasadDhungana/HamroNotes), marketplace for buying and selling academic notes.
+- [**django-ecommerce**](https://github.com/NabinPrasadDhungana/django-ecommerce), full-featured e-commerce site in Django.
+- [**Custom Django Auth System**](https://github.com/NabinPrasadDhungana/todo_list_project), to-do app built on Django Allauth with custom user models.
+- [**DjangoProject1st**](https://github.com/NabinPrasadDhungana/DjangoProject1st), the first Django project that started all this.
+
+</details>
+
+---
+
+## Stats
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Backend+Developer;Lifelong+Learner..." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/nabinprasaddhungana"><img src="https://img.shields.io/github/followers/nabinprasaddhungana?label=Follow&style=social"></a>
-  <a href="mailto:prnabin123@gmail.com"><img src="https://img.shields.io/badge/email-prnabin123%40gmail.com-red?style=flat-square&logo=gmail"></a>
-  <a href="https://www.linkedin.com/in/nabin-prasad-dhungana/"><img src="https://img.shields.io/badge/LinkedIn-nabin--prasad--dhungana-blue?style=flat-square&logo=linkedin"></a>
-  <a href="https://x.com/NabinPrasadDhu1"><img src="https://img.shields.io/badge/Twitter-@NabinPrasadDhu1-1DA1F2?style=flat-square&logo=twitter"></a>
-  <!-- https://komarev.com/ghpvc/?username=NabinPrasadDhungana -->
+  <img src="https://github-readme-stats.vercel.app/api?username=nabinprasaddhungana&show_icons=true&hide_border=true&theme=graywhite" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nabinprasaddhungana&hide_border=true&theme=graywhite" width="48%" />
 </p>
 
 ---
 
-### About Me
-
-🤩 I'm a passionate and curious **developer** from Nepal.  
-🤖 I specialize in building full-stack(primarily Back-End for now i.e. July, 2025) web apps using modern technologies.  
-🧠 I love turning ideas into beautiful, interactive experiences.  
-📚 Always learning, always building.
-
----
-
-### 🏆 Tech Stack
-
-**Languages:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3)
-
-**Frameworks & Tools:**  
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 🪄 Featured Projects
-
-- 🧠 [**Sajilo-Hajiri**](https://github.com/NabinPrasadDhungana/Sajilo-Hajiri) 📝 An efficient attendance management system using **Face Recognition** built with Django.
-- 🐍 [**CureCircle**](https://github.com/hemrajpant69/CureCircle) 📝 A donation campaign web app to support people needing financial help for fatal disease treatment.
-- 🛒 [**HamroNotes**](https://github.com/NabinPrasadDhungana/HamroNotes) 📝 A powerful platform for buying & selling academic and non-academic notes.
-- 🦾 [**Blog-Website**](https://github.com/NabinPrasadDhungana/Blog-Website) 📝 Developed a dynamic blog website enabling users to create, read, update, and delete blog posts with an secure user authentication and efficient content management features to enhance user experience and maintain data integrity.
-- 🗃️ [**django-ecommerce**](https://github.com/NabinPrasadDhungana/django-ecommerce) 📝 A full-featured e-commerce website built using Django.
-- 🔥 [**DjangoProject1st**](https://github.com/NabinPrasadDhungana/DjangoProject1st) 📝 My very first Django project that kickstarted my backend journey.
-- 📝 [**Custom Django Auth System**](https://github.com/NabinPrasadDhungana/todo_list_project) 📝 A to-do list app with Django Allauth and custom user models.
-
----
-
-### 📊 GitHub Stats
-<a href="https://nabinprasaddhungana.com.np">
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=nabinprasaddhungana&show_icons=true&theme=tokyonight" width="47%"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nabinprasadddhungana&theme=tokyonight" width="47%"/>
-  </p>
-</a>
-
----
-
-### 🏆 GitHub Contributions
-
-<a href="https://nabinprasaddhungana.com.np">
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/nabinprasaddhungana/nabinprasaddhungana/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-  </p>
-</a>
-
-
-### 💬 Let's Connect!
-
-I'm always open to collaborating on interesting projects, contributing to open source, or just having a chat about tech, creativity, or educational content.
-
-🤝 **Reach me below:**  
-📧[prnabin123@gmail.com](mailto:prnabin123@gmail.com)  
-🌐[My Portfolio](https://nabinprasaddhungana.com.np)  
-🔗[LinkedIn](https://www.linkedin.com/in/nabin-prasad-dhungana/)
-
----
-
-<p align="center">
-  🙏 Let's build something amazing together! Thank you!
-</p>
+Open to backend work, interesting problems, and open source. Easiest way to reach me is
+[email](mailto:prnabin123@gmail.com).
