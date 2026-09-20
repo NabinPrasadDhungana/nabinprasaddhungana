@@ -14,9 +14,9 @@ finishing a BE in IT at NCIT.
 
 | | |
 |---|---|
-| **Languages** | Python, JavaScript, PHP, Java, C, C++, SQL |
+| **Languages** | Python(Primary), JavaScript, PHP, Java, C, C++, SQL |
 | **Backend** | FastAPI, Django, Django REST Framework, REST API design, RBAC, microservices |
-| **Data** | PostgreSQL, MySQL, SQLite, Redis / RedisGEO / RediSearch |
+| **Data** | PostgreSQL, MySQL, SQLite, Redis |
 | **ORM & schema** | SQLAlchemy, Alembic, Django ORM, Pydantic |
 | **Infra & tools** | Docker, docker-compose, Celery, AWS S3, Git, Linux, Swagger, Postman |
 
