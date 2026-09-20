@@ -19,8 +19,6 @@ finishing a BE in IT at NCIT.
 | **Data** | PostgreSQL, MySQL, SQLite, Redis / RedisGEO / RediSearch |
 | **ORM & schema** | SQLAlchemy, Alembic, Django ORM, Pydantic |
 | **Infra & tools** | Docker, docker-compose, Celery, AWS S3, Git, Linux, Swagger, Postman |
-| **Frontend** | React, Tailwind CSS, Bootstrap |
-| **ML** | PyTorch/TensorFlow (EfficientNet, CBAM attention), OpenCV |
 
 ---
 
